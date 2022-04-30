@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<script src='https://aframe.io/releases/1.3.0/aframe.min.js'></script>
+</head>
+<body>
+<a-scene gltf-model="dracoDecoderPath: decoder/">
+<a-assets>
+<a-asset-item id="texturedMesh2" src="texturedMesh2.glb"></a-asset-item>
+</a-assets>
+<a-gltf-model src="#texturedMesh2" position="1 1 -10"></a-gltf-model>
+<a-sky color="blue"></a-sky>
+</a-scene>
+</body>
+</html>
